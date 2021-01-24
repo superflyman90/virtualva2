@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Moncompte | Virt VA{% endblock %}
+
+{% block body %}
+    <div class="container account mt-5 mb-5">
+        <h1>Mon compte</h1>
+
+        <p class="welcome">Bienvenue {{app.user.firstname}} ! <br/>
+        C'est dans cet espace que vous allez pouvoir gérer toutes vos informations personnelles</p>
+
+        <hr>
+        
+        <ul>
+        <li>Modifier mon mot de passe</li>
+        <li>Ajouter mes adresses</li>
+        <li>Mes commandes</li>
+        </ul>
+        
+        <hr>
+
+        
+
+    </div>
+{% endblock %}
